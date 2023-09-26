@@ -3,8 +3,8 @@
 #include <LiquidCrystal_I2C.h>
 #include <WiFi.h>
 
-const char* ssid = "OLUWAFERANMI_5G";
-const char* password = "JESU1213";
+const char* ssid = "WIFI_NAME";
+const char* password = "WIFI_PASSWORD";
 
 LiquidCrystal_I2C lcd(0x27, 16, 2); // Define the LCD's address, columns, and rows
 
